@@ -1,0 +1,23 @@
+#map {
+	width: 940px;
+	height: 400px;
+}
+
+#panel {
+	width: 940px;
+	margin: auto;
+}
+
+/* largeur du text de l'itinéraire */
+.adp-directions {
+	width: 940px;
+	margin: auto;
+}
+
+#contact {
+	margin-top: 50px;
+}
+
+article {
+	padding: 0 0 0.2em 0;
+}

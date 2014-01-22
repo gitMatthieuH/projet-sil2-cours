@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head lang="fr">
+		<meta charset="utf-8"/> 
+		<title>Matthieu HOSTACHE</title>
+
+		<!-- CSS includes -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<!-- JS includes -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body onLoad="initIndex()">
+		<header class="website-header">
+            <div class="up row">
+                <img class="myphoto" src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/254/007/351f572.jpg">
+                <h1>Matthieu Hostache</h1>
+            </div>
+            <nav class="main-navbar">
+                <div class="row">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="agenda.html">Agenda</a></li>
+                        <li><a href="stats.html">Statistiques</a></li>
+                        <li><a href="contact.html">Me Contacter</a></li>
+                        <li><a href="analyse.html">Analyse</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+		<section class="content row">
+			<h1>Bienvenue sur mon site personnel !</h1>
+			<article id="prez">
+				<h2>Laissez-moi vous guider !</h2>
+				<p>Bonjour et bienvenue sur mon site perso. Voici une courte vidéo ou je me présente et exprime mes motivations professionnelles ainsi qu'un audio ou je présente mon cv.</p>
+				<div class="media">
+					<video width="320" height="240" controls>
+					  <source src="media/presentation.mp4" type="video/mp4">
+					  <source src="media/presentation.ogv" type="video/ogg">
+					Votre navigateur ne support pas le tag video HTML5.
+					</video><br>
+				</div>
+				<div class="media">
+					<audio controls>
+					  <source src="media/presentation-audio.ogg" type="audio/ogg">
+					  <source src="media/presentation-audio.mp3" type="audio/mpeg">
+					Votre navigateur ne support pas le tag audio HTML5.
+					</audio><br>
+				</div>
+			</article>
+		</section>
+		<footer>
+		</footer>
+	
+	</body>
+</html>

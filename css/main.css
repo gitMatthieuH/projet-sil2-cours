@@ -1,0 +1,169 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Définit les éléments à centrer avec une largeur fixe */
+.row {
+	width: 100%;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+.website-header {
+  text-align: center;
+}
+
+.website-header .up { 
+	min-height: 100px;
+	padding-left: 10px;
+	box-shadow: 0 0 20px #eee;
+}
+
+.website-header .myphoto {
+	float: left;
+	margin: 12px 12px 12px 80px;
+    height:80px;
+    background:#fff;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -o-border-radius:40px;
+    border-radius:40px;
+}
+
+.website-header h1 {
+	margin: 0;
+	font-size: 4.25rem;
+	font-family: "Open Sans";
+	font-weight: 300;
+	padding: 0.25em;
+}
+
+/* ==========================================================================
+   NAVBAR
+   ========================================================================== */
+
+.main-navbar {
+	background-color : #4A4D50;
+	color: #FFF;
+	height: 50px;
+}
+
+.main-navbar ul {
+	height: 50px;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.main-navbar li {
+	display: inline;
+}
+
+.main-navbar li a {
+	text-decoration:none;
+	color: inherit;
+	padding: 0 16px;
+}
+
+.main-navbar li a:hover {
+	background: #d04526;
+    padding-left: 30px;
+	-moz-transition: all .5s; 
+	-webkit-transition: all .5s; 
+	-o-transition: all .5s; 
+	transition: all .5s;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+footer {
+	background-color : #4A4D50;
+}
+
+
+/* ==========================================================================
+   LINKS
+   ========================================================================== */
+
+a:hover {
+	color: #c03d20;
+}
+
+a {
+	color: #d04526;
+	text-decoration: none;
+	outline: 0;
+	line-height: inherit;
+}
+
+/* ==========================================================================
+   CONTENT (ARTICLES, TITLES, ...)
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	color: #444444;
+	text-rendering: optimizeLegibility;
+	padding-top: 0.2em;
+	line-height: 1em;
+	padding-bottom: 0.2em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	margin:0;
+}
+
+h2 {
+	margin: 20px 15px 0 15px;
+}
+
+article {
+	padding: 10px 70px 10px 70px;
+}
+
+article:hover {
+    background-color: #f2efef;
+}
+
+article h2, article p, article address, article a {
+	padding: 0.2em;
+}
+
+
+
+/* ==========================================================================
+   Home page
+   ========================================================================== */
+
+#prez {
+	text-align: center;
+}
+
+.content {
+	padding: 20px;
+}
+
+.media {
+	text-align: center;
+}
+
+.media  .supported-browers ul {
+	text-align: left;
+	width: 320px;
+	margin: 0 auto;
+}
+
+.media {
+	margin: 15px;
+}

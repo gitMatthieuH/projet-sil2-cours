@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<title>Matthieu HOSTACHE - Statistiques</title>
+		
+		<!-- CSS includes -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/stats.css"/>	
+		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<!-- JS includes -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src="lib/kinetic-v4.7.4.min.js"></script>
+		<script src="js/stats.js"></script>
+	</head>
+	
+	<body onload="initialiserStats()">
+
+		<header class="website-header">
+            <div class="up row">
+                <img class="myphoto" src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/254/007/351f572.jpg">
+                <h1>Matthieu Hostache</h1>
+            </div>
+            <nav class="main-navbar">
+                <div class="row">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="agenda.html">Agenda</a></li>
+                        <li><a href="stats.html">Statistiques</a></li>
+                        <li><a href="contact.html">Me Contacter</a></li>
+                        <li><a href="analyse.html">Analyse</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="content row">
+        	<h1>Statistiques</h1>
+        	
+        	<article>
+	        	<h2><i class="fa fa-bar-chart-o"></i> RDV <select id="selectedYear"></select> :</h2>
+	        	<div id="graph"></div>
+	        </article>
+        </section>
+
+	</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head lang="fr">
+        <meta charset="utf-8"/> 
+        <title>Matthieu HOSTACHE - CV</title>
+
+        <!-- CSS includes -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!-- JS includes -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/agenda.js"></script>
+        <script type="text/javascript" src="js/form.js"></script>
+    </head>
+    <body>
+        <header class="website-header">
+            <div class="up row">
+                <img class="myphoto" src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/7/000/254/007/351f572.jpg">
+                <h1>Matthieu Hostache</h1>
+            </div>
+            <nav class="main-navbar">
+                <div class="row">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="agenda.html">Agenda</a></li>
+                        <li><a href="stats.html">Statistiques</a></li>
+                        <li><a href="contact.html">Me Contacter</a></li>
+                        <li><a href="analyse.html">Analyse</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="content row">
+        <h1>Analyse</h1>
+        <article><h2><i class="fa fa-check"></i> Ce qui est fait :</h2><br>
+            <table>
+                <tr>
+                    <th><b>Accueil :</b></th>
+                    <td><meter min="1" max="40" low="20" optimum="40" high="25" value="40"/></td>
+                    <th><b>CV :</b></th>
+                    <td><meter min="1" max="40" low="20" optimum="40" high="25" value="40"/></td>
+                    <th><b>Agenda :</b></th>
+                    <td><meter min="1" max="40" low="20" optimum="40" high="25" value="40"/></td>                    
+                </tr>
+                <tr>
+                    <th><b>Statistiques :</b></th>
+                    <td><meter min="1" max="40" low="20" optimum="40" high="25" value="40"/></td>
+                    <th><b>Analyse :</b></th>
+                    <td><meter min="1" max="40" low="20" optimum="40" high="25" value="40"/></td>
+                </tr>
+            </table>
+        </article>
+        <article><h2><i class="fa fa-desktop"></i> Navigateurs supportés :</h2><br>
+            <b>Google Chrome</b> : en testant le site avec "file://" la localisation ne fonctionne pas, il faut y accéder en localhost.
+            Après recherche il semble que ce soit un fonctionnement normal sur ce navigateur (restriction de sécurité).<br>
+            <b>Mozilla Firefox</b> : La localisation ne fonctionne pas à partir de la version 24. Le test en version 23 est OK.<br>
+            <b>Internet Explorer</b> : Les "meters" ne fonctionnent pas et divers légers problèmes d'affichage dans l'agenda.<br>
+            <b>Internet Explorer 9 et <</b> : Les "canvas" ne fonctionnent pas.<br>
+            <b>Internet Explorer 8 et <</b> : Trop de problèmes pour définir ces navigateurs comme compatibles.<br>
+        </article>
+        <article><h2><i class="fa fa-times"></i> Problèmes rencontrés et non résolus :</h2><br>
+            Les différents points de compatibilités inter-navigateurs cités ci-dessus ne sont pas résolus. Les canvas ne fonctionnant pas sur IE9 découle de l'utilisation de KineticJS qui déprécie ce navigateur. 
+        </article>
+        <article><h2><i class="fa fa-thumbs-o-up"></i> Améliorations :</h2><br>
+            <b>Page de contact</b> : Une page de contact contenant un formulaire et une Google Map présentant
+            <ul>
+                <li>la position courante de l'utilisateur,</li>
+                <li>votre adresse (professionnelle ou personnelle),</li>
+                <li>un trajet permettant à l'utilisateur de venir à votre adresse (le mode de transport est laissé à votre choix)</li>
+            </ul>
+            <b>Suppression des rendez-vous</b> : possibilité de supprimer un rendez-vous lorsque le détail de ce dernier est affiché.<br>
+            <b>Rendez-vous sur plusieurs heures</b> : Un rendez-vous peut être ajouté sur plusieurs heures. La suppression d'un rendez-vous sur plusieurs fonctionne également.<br>
+        </article>
+        </section>
+    </body>
+</html>
